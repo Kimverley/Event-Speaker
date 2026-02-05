@@ -1,0 +1,110 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        .header {
+            background: #6691bf;
+            color: #fff;
+            padding: 4ch;
+            border-bottom: 1px solid #ddd;
+           justify-items: center;
+            
+        }
+        .header > p{
+            margin: 10px;
+            color: rgb(59, 57, 57);
+        }
+
+        .person-card {
+            background: #fff;
+            border: 3px solid #ddd;
+            border-radius: 5px;
+        }
+        .portfolio-grid{
+
+            padding: 40px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        
+        }
+
+        .person-icon{
+            margin: 20px auto;
+            font-size: 60px;
+            padding: 10px;
+            border: 2px solid cadetblue;
+            border-radius: 50%;
+            width: fit-content;
+            background-color: rgb(232, 232, 232);
+        }
+          .person-name {
+            display: flex;
+            font-weight: 600;
+            padding: 4px 6px;
+            justify-content: center;
+            font-size: larger;
+            color: #344b64;
+            margin-bottom: 10px;
+        }
+        
+        .person-titleAndCompany {
+            color: #808080;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            padding: 0 20px;
+            text-align: center;
+        }
+        .person-biography {
+            color: #383636;
+            font-size: 12px;
+            padding: 10px 30px;
+            
+            margin-bottom: 5px;
+        
+        }
+        
+        .person-topic {
+            padding: 10px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .person-expertise {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 15px;
+            
+        }
+        .person-expertise span{
+            color: #00bff9;
+            font-weight: 600;
+        }
+        
+        .person-link {
+            padding: 10px auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            text-decoration: none;
+            color: #00bff9;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .person-link:hover{
+            color: #344b64;
+        }
